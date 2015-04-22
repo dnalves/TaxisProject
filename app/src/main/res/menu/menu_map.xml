@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MapActivity"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/change_refresh_time" android:title="@string/change_refresh_time"
+        android:orderInCategory="1" app:showAsAction="never">
+        <menu>
+            <item android:id="@+id/refresh_5" android:title="@string/change_refresh_5" android:orderInCategory="0" app:showAsAction="never" />
+            <item android:id="@+id/refresh_30" android:title="@string/change_refresh_30" android:orderInCategory="1" app:showAsAction="never" />
+            <item android:id="@+id/refresh_60" android:title="@string/change_refresh_60" android:orderInCategory="2" app:showAsAction="never" />
+        </menu>
+    </item>
+    <item android:id="@+id/should_clear_map" android:title="@string/should_clear_map"
+        android:orderInCategory="1" app:showAsAction="never">
+        <menu>
+            <item android:id="@+id/clear_map_no" android:title="@string/clear_map_no" android:orderInCategory="0" app:showAsAction="never" />
+            <item android:id="@+id/clear_map_yes" android:title="@string/clear_map_yes" android:orderInCategory="1" app:showAsAction="never" />
+        </menu>
+    </item>
+</menu>

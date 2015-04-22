@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Taxis99</string>
+    <string name="title_activity_map">Taxis99</string>
+    <string name="change_refresh_time">Change Refresh Time</string>
+    <string name="change_refresh_5">5 seconds (default)</string>
+    <string name="change_refresh_30">30 seconds</string>
+    <string name="change_refresh_60">1 minute</string>
+    <string name="clear_map_no">No (default)</string>
+    <string name="clear_map_yes">Yes</string>
+    <string name="should_clear_map">Show only last refresh?</string>
+</resources>
